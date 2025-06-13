@@ -1620,17 +1620,7 @@ a {
 .ucse-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
 }
-body,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Poppins", sans-serif;
-}
-body {
-  font-size: 16px;
-}
+
 .ucse-half img {
   margin-bottom: -6px;
   margin-top: 16px;
@@ -1647,7 +1637,7 @@ form > div > button {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  padding: 10px;
+  padding-top: 20px;
   gap: 20px;
 }
 
@@ -1663,7 +1653,6 @@ form > div > button {
 .precio-col {
   width: 100%;
   background-color: #f3f3f3;
-  margin-bottom: 50px;
 }
 
 .precio-col:last-child {
@@ -1673,7 +1662,6 @@ form > div > button {
 .precio-col2 {
   background-color: #f3f3f3;
   width: 100%;
-  margin-bottom: 50px;
 }
 
 #maxi2 {
@@ -1714,7 +1702,7 @@ form > div > button {
 }
 
 .precio-col-features {
-  padding: 0 20px 20px 20px;
+  padding: 0px 0px 20px 0px;
 }
 
 .precio-col-features p {
@@ -1735,6 +1723,7 @@ form > div > button {
   max-width: 120px;
   text-align: center;
   background-color: #f44336;
+  color: #f3f3f3;
   margin: 0 auto 20px;
 }
 .precio-col-comprar {
@@ -1757,6 +1746,21 @@ form > div > button {
   font-size: 20px;
 }
 
+.bajo {
+  font-size: 16px;
+}
+
 p > span {
   color: #616161;
+}
+
+.nortmal {
+  font-size: 24px !important;
+  padding: 10px;
+}
+
+#name,
+#email,
+#Message {
+  border-color: #cccccc;
 }
